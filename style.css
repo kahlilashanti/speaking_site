@@ -5,6 +5,23 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  margin-top: 1rem;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 25px;
+}
+
+button:hover {
+  cursor: pointer;
+} */
+
 .showcase::after {
   content:' ';
   height: 100vh;
@@ -30,10 +47,28 @@ body {
   -webkit-filter: blur(2px);
 }
 
+.services a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.services a:hover {
+  color: #74b9ff;
+}
+
+.about a:hover {
+  color: #74b9ff;
+}
+
+.fa-whatsapp:hover {
+  color: #74b9ff;
+  cursor: pointer;
+}
 /* content inside image */
 
-a {
-  color: white;
+.about a {
+  color: #333;
+  text-decoration: none;
 }
 
 .content {
@@ -127,11 +162,13 @@ footer p {
   .content .logo {
     height: 140px;
     width: 140px;
+
   }
 
   .content .text {
     display: none;
   }
+
 
 
 
