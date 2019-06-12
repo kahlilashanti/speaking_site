@@ -169,6 +169,10 @@ footer p {
     display: none;
   }
 
+  .content .title {
+    font-size: 1.2rem;
+  }
+
 
 
 
